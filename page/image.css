@@ -1,0 +1,72 @@
+.bxc {
+  display: flex;
+  padding: 10px;
+  margin: 50px;
+  border-top: 3px solid rgba(37, 37, 34, 0.212);
+  margin-bottom: 30px;
+}
+.box {
+  padding: 20px;
+  margin-left: 10px;
+  overflow: hidden;
+
+  overflow: hidden;
+  width: 400px;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bxc {
+  display: flex;
+  gap: 100px;
+}
+.Bx {
+  background-color: red;
+}
+.bxc img {
+  height: 600px;
+  width: 400px;
+  border-radius: 3px;
+  margin-top: 50px;
+  box-shadow: 5px 5px 20px black;
+  border: 5px solid rgba(0, 128, 0, 0.658);
+  border-style: dotted;
+}
+.intro {
+  height: 100px;
+  width: 400px;
+  padding: 6px;
+  box-sizing: border-box;
+  position: absolute;
+  bottom: 10px;
+  transition: 1s ease-in;
+}
+.intro h1 {
+  color: black;
+  margin: 20px;
+  font-size: 40px;
+}
+.intro p {
+  margin-left: 10px;
+  visibility: hidden;
+  opacity: 0;
+}
+.intro span {
+  font-weight: bold;
+}
+.box:hover .intro {
+  height: fit-content;
+  bottom: 25px;
+
+  background-color: rgba(107, 129, 98, 0.712);
+}
+.box:hover .intro p {
+  opacity: 1;
+  visibility: visible;
+  color: black;
+}
+.box:hover {
+  transform: scale(1.1) rotate(-3deg);
+}

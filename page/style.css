@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url(darling-arias-tX62O5F3AfU-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  backdrop-filter: blur(10px);
+}
+#G_cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1880px;
+  min-width: 600px;
+}
+.nav li {
+  gap: 20rem;
+}
+.nav {
+  width: 1000px;
+  height: 100px;
+}
+.navdiv {
+  width: 1880px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  text-transform: capitalize;
+  gap: 20rem;
+  border-bottom: 5px solid rgba(87, 218, 104, 0.527);
+  border-style: dashed;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+}
+li a {
+  color: white;
+  font-size: 40px;
+  font-weight: bolder;
+  margin-right: 5px;
+  text-decoration: none;
+}
+li a:hover {
+  color: rgba(81, 211, 109, 0.171);
+}
+button {
+  margin-right: 5px;
+  border: 1px solid green;
+  width: 300px;
+  height: 60px;
+  background-color: transparent;
+  color: rgba(179, 176, 56, 0.664);
+  font-size: 20px;
+  border-radius: 10px;
+}
+button:hover {
+  background-color: rgba(127, 255, 212, 0.137);
+  border: 2px solid rgba(222, 184, 135, 0.13);
+  color: white;
+}
+.logo .pcs {
+  width: 400px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 20px;
+}
+.order {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px;
+}
+.order p {
+  font-size: 90px;
+  font-family: "Beau Rivage", cursive;
+  text-shadow: 20px 20px 20px black;
+}
+.hof {
+  text-decoration: underline;
+  font-weight: 600;
+  font-size: xx-large;
+}
+.order form input {
+  width: 1500px;
+  height: 60px;
+  background-color: rgba(104, 95, 95, 0.555);
+  font-size: 30px;
+  border-radius: 10px;
+  border: none;
+  color: rgba(226, 212, 193, 0.808);
+  outline: none;
+}
+@media (max-width: 320px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    background-image: url(darling-arias-tX62O5F3AfU-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    backdrop-filter: blur(5px);
+  }
+  #G_cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 320px;
+    min-width: 100px;
+  }
+  .nav {
+    width: 320px;
+    height: 200px;
+  }
+  .navdiv {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 2rem;
+    border-bottom: 5px solid rgba(87, 218, 104, 0.527);
+    border-style: dashed;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+  }
+
+  li {
+    list-style: none;
+    display: inline-block;
+  }
+  li a {
+    color: white;
+    font-size: 10px;
+    font-weight: bolder;
+
+    text-decoration: none;
+  }
+  li a:hover {
+    color: rgb(81, 211, 109);
+  }
+  button {
+    border: 1px solid green;
+    width: 25px;
+    height: 25px;
+    background-color: transparent;
+    color: rgba(179, 176, 56, 0.664);
+    font-size: 5px;
+    border-radius: 10px;
+  }
+  button:hover {
+    background-color: rgba(127, 255, 212, 0.137);
+    border: 2px solid rgba(222, 184, 135, 0.13);
+    color: white;
+  }
+  .logo {
+    width: 200px;
+    height: 100px;
+    background-image: url(mj-stitches-high-resolution-logo-color-on-transparent-background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .order {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+  }
+  .order p {
+    font-size: 20px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .order form input {
+    width: 320px;
+    height: 40px;
+    background-color: rgba(104, 95, 95, 0.555);
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    color: rgba(226, 212, 193, 0.808);
+    cursor: pointer;
+  }
+}
